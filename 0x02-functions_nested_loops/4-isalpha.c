@@ -4,7 +4,7 @@
  * _isalpha - Entry point
  * Description: checks if alphabet
  * @c: integer value recieved
- * Return 1 if true. 0 if false
+ * Return: 1 if true. 0 if false
  */
 int _isalpha(int c)
 {
@@ -18,7 +18,7 @@ int _isalpha(int c)
 	}
 	for (j = 'A'; j <= 'Z'; j++)
 	{
-		if(c == j)
+		if (c == j)
 			return (1);
 	}
 
