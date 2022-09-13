@@ -15,7 +15,7 @@ int _islower(int c)
 		/* refer int c*/
 		if (c == ch)
 			return (1);
-		else
-			return (0);
 	}
+
+	return (0);
 }
