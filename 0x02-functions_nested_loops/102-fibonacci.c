@@ -17,7 +17,7 @@ int main(void)
 			printf("%ld", n);
 		}
 		else if (m == 1)
-		{	
+		{
 			printf(", %ld", o);
 		}
 		else
