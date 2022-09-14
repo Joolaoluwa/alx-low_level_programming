@@ -10,7 +10,7 @@ int main(void)
 	int m = 0;
 	long n = 1, o = 2;
 
-	while (i < 50)
+	while (m < 50)
 	{
 		if (m == 0)
 		{
