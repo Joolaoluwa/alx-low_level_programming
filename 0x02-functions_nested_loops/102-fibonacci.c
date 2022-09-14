@@ -12,13 +12,13 @@ int main(void)
 
 	while (i < 50)
 	{
-		if (i == 0)
+		if (m == 0)
 		{
-			printf("ld", n);
+			printf("%ld", n);
 		}
-		else if (i == 1)
+		else if (m == 1)
 		{	
-			printf("ld", o);
+			printf("%ld", o);
 		}
 		else
 		{
