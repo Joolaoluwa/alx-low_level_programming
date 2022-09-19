@@ -1,1 +1,1 @@
-This directory is used to debug program in C
+Hello to pointers and arrays
