@@ -1,20 +1,20 @@
 #include "main.h"
 
 /**
- * print-rev - prints a string, in reverse
+ * print_rev - prints a string, in reverse
  * @s: string value recieved
  * Return: void
  */
 
 void print_rev(char *s)
 {
-	int i, j, l;
+	int count, total, rev;
 
-	i = 0;
-	while (s[i] != '\0')
-		i++;
 
-	j = i;
-	for (l = j - 1; l >= 0; l--)
-		_putchar(s[l]);
+	for (count = 0; s[count] != '\0';)
+		count++;
+
+	total = count;
+	for (rev = total - 1; rev >= 0; rev--)
+		_putchar(s[rev]);
 }
