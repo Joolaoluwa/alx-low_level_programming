@@ -6,7 +6,7 @@
  * Return: string constant encoded
  */
 
-char *leet(char *)
+char *leet(char *s)
 {
 	int i, j;
 
