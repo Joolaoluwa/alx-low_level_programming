@@ -9,6 +9,7 @@
 char *cap_string(char *s)
 {
 	int i, j;
+
 	char spe[13] = {' ', '\t', '\n', ',', ';', '.',
 		'!', '?', '"', '(', ')', '{', '}'};
 
@@ -27,6 +28,6 @@ char *cap_string(char *s)
 		}
 	}
 
-	return s;
+	return (s);
 
 }
