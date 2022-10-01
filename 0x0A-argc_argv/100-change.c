@@ -46,7 +46,7 @@ int main(int argc, char *argv[])
 		}
 	}
 
-	else
+	else if (argc == 1 || argc > 2)
 	{
 		printf("Error\n");
 		return (1);
