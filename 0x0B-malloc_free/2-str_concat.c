@@ -14,11 +14,14 @@ char *str_concat(char *s1, char *s2)
 	char *s;
 
 	if (s1 == NULL)
-		return ("");
+		s1 = "";
+
 	if (s2 == NULL)
-		return ("");
+		s2 = "";
+
 	for (i = 0; s1[i] != '\0';)
 		i++;
+
 	for (j = 0; s2[j] != '\0';)
 		j++;
 
@@ -31,13 +34,11 @@ char *str_concat(char *s1, char *s2)
 	{
 		s[k] = s1[k];
 	}
-	
-
-	for (l = 0; l <= j;)
+		
+	l = j;
+	for (j = 0; j <= l; k++, j++)
 	{
-		s[k] = s2[l];
-		k++;
-		l++;
+		s[k] = s2[j];
 	}
 	return (s);
 	free(s);
