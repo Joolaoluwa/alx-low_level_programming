@@ -2,8 +2,10 @@
 #include <stdlib.h>
 
 /**
- * _strdup - a function that returns a pointer to a newly allocated space in memory,
- * a function that returns a pointer to a newly allocated space in memory.
+ * _strdup - a function that returns a pointer,
+ * to a newly allocated space in memory,
+ * a function that returns a pointer.
+ * to a newly allocated space in memory.
  * @str: string value recieved
  * Return: a pointer to a newly allocated space in memory
  */
