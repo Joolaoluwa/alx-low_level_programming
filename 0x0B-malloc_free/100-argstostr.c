@@ -8,7 +8,7 @@
  * @av: An array of pointers to the arguments.
  *
  * Return: NULL if ac == 0 or av == NULL,
- * 	otherwise - returns a pointer to a new string
+ * otherwise - returns a pointer to a new string
  */
 
 char *argstostr(int ac, char **av)
